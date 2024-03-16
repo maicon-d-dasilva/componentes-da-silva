@@ -1,0 +1,32 @@
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+    height: 100vh;
+    
+}
+
+.toolbar {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    background-color:darkcyan;
+    
+}
+
+.navbar {
+    grid-column: 1;
+    grid-row: 2 / 5;
+    height: 100%;
+    background-color: darkcyan;
+}
+
+.content {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    background-color:burlywood;
+    
+
+}
